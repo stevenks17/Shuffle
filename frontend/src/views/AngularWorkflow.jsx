@@ -24104,7 +24104,6 @@ const AngularWorkflow = (defaultprops) => {
       hideBackdrop={true}
       disableEnforceFocus={true}
       disableBackdropClick={true}
-      style={{ pointerEvents: "none" }}
       open={authenticationModalOpen}
       onClose={() => {
         setSelectedMeta(undefined)
